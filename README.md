@@ -42,6 +42,8 @@ For more information, see the
 
 ## Learned
 
+### Chapter 3: Static Pages
+
 1. There is a command to generate controllers:
 
 ```ruby
@@ -55,3 +57,6 @@ $ rails generate controller ControllerName <optional action names>
 4. Testing can drive development of new features, allow for refactoring, and catch regressions.
 
 5. Rails Layouts allow a common template for pages in our application to make things DRY.
+
+### Chapter 4: Rails-Flavored Ruby
+
