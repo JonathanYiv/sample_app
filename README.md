@@ -60,3 +60,4 @@ $ rails generate controller ControllerName <optional action names>
 
 ### Chapter 4: Rails-Flavored Ruby
 
+1. Strings are probably the most important data type in web development.
