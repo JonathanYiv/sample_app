@@ -10,7 +10,7 @@ gem 'turbolinks',   '5.0.1'
 gem 'jbuilder',     '2.7.0'
 
 group :development, :test do
-  gem 'sqlite3', '1.3.13'
+  gem 'sqlite3', '1.3.13' # This concerns me. In the Hartl book footnotes and in Odin's Deployment lesson, it recommends switching from sqlite3 to postgresql asap for simplicity.
   gem 'byebug',  '9.0.6', platform: :mri
 end
 
