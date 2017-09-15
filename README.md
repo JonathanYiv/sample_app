@@ -39,3 +39,19 @@ $ rails server
 
 For more information, see the
 [*Ruby on Rails Tutorial* book](http://www.railstutorial.org/book).
+
+## Learned
+
+1. There is a command to generate controllers:
+
+```ruby
+$ rails generate controller ControllerName <optional action names>
+```
+
+2. New Routes are defined in /config/routes.rb
+
+3. Rails views can contain static HTML and/or ERb (Embedded Ruby).
+
+4. Testing can drive development of new features, allow for refactoring, and catch regressions.
+
+5. Rails Layouts allow a common template for pages in our application to make things DRY.
