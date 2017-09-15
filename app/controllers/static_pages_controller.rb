@@ -4,6 +4,9 @@ class StaticPagesController < ApplicationController
 
   def help
   end
+
+  def about
+  end
 end
 
 # In Plain Ruby, an empty method would do nothing
