@@ -7,6 +7,9 @@ class StaticPagesController < ApplicationController
 
   def about
   end
+
+  def contact
+  end
 end
 
 # In Plain Ruby, an empty method would do nothing
