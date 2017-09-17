@@ -61,3 +61,13 @@ $ rails generate controller ControllerName <optional action names>
 ### Chapter 4: Rails-Flavored Ruby
 
 1. Strings are probably the most important data type in web development.
+
+### Chapter 5: Filling in the Layout
+
+1. HTML5 has header and footer tags.
+
+2. Bootstrap framework allows quick design of a nice looking site.
+
+3. Sass/Less offer improvements upon CSS.
+
+4. Integration tests simulate a browser clicking from page to page.
