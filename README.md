@@ -71,3 +71,11 @@ $ rails generate controller ControllerName <optional action names>
 3. Sass/Less offer improvements upon CSS.
 
 4. Integration tests simulate a browser clicking from page to page.
+
+### Chapter 6: Modeling Users
+
+1. Common validations include presence, length, and format.
+
+2. Defining a database index is like a book index. It also helps lookup efficiency and can enforce uniqueness at the database level.
+
+3. We can add a secure password to a model using the built-in 'has_secure_password' method.
