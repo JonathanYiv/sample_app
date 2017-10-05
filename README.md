@@ -93,3 +93,13 @@ $ rails generate controller ControllerName <optional action names>
 5. Integration tests can also check form submission behavior and catch regressions.
 
 6. We can configure our production application to use SSL for secure communications (by uncommenting a line in config/environments/production) and use Puma for high performance.
+
+### Chapter 8: Basic Login
+
+1. TDD is useful when debugging by reproducing the bug in a test.
+
+2. Sessions can persist state.
+
+3. We can change features such as links on the layouts based on login status.
+
+4. Integration tests can verify correct routes, database updates, and proper changes to the layout.
