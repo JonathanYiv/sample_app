@@ -34,5 +34,6 @@ assert_equal before_count, after_count
     follow_redirect!
     assert_template 'users/show'
     assert_not flash.empty?
+    assert is_logged_in?
   end
 end
