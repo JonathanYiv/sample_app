@@ -79,3 +79,17 @@ $ rails generate controller ControllerName <optional action names>
 2. Defining a database index is like a book index. It also helps lookup efficiency and can enforce uniqueness at the database level.
 
 3. We can add a secure password to a model using the built-in 'has_secure_password' method.
+
+### Chapter 7: Sign Up
+
+1. The debug method displays useful debugging information.
+
+2. SASS mixins are like Ruby modules.
+
+3. Data should be treated as a 'resource' in the REST API mindset.
+
+4. Gravatars are a convenient way of displaying avatars to represent users.
+
+5. Integration tests can also check form submission behavior and catch regressions.
+
+6. We can configure our production application to use SSL for secure communications (by uncommenting a line in config/environments/production) and use Puma for high performance.
