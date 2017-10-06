@@ -115,3 +115,21 @@ $ rails generate controller ControllerName <optional action names>
 4. Login status is determined by the presence of a current user based on the session's user ID or the permanent session's unioque remember token.
 
 5. The application signs users out by deleting the session's user ID and removing the permanent cookie.
+
+### Chapter 10: Updating, Showing, and Deleting Users
+
+1. Authorization is implemented using before filters.
+
+2. Authorization tests use both low-level commands to submit HTTP requests to controller actions and high-level integration tests.
+
+3. 'Friendly forwarding' redirects users where they wanted to go after logging in.
+
+4. Pagination shows a bunch of stuff split into multiple pages.
+
+5. db/seeds.rb lets you 'seed' the database with sample data.
+
+6. 'render @users' automatically calls the \_user.html.erb partial on each user.
+
+7. A boolean attribute in the database automatically creates a #attribute? boolean method on the Model's objects.
+
+8. Fixtures can produce a large amount of test data using embedded Ruby.
