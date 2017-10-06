@@ -14,7 +14,7 @@ class User < ApplicationRecord
 										# ActiveRecord uniqueness validation does not guarantee uniqueness at the database level
 										# in the case of a new user submitting their user info twice at the same time accidentally
 										# you have to create a database index on the email column
-	validates :password, presence: true, length: { minimum: 6 }
+	validates :password, presence: true, length: { minimum: 6 }, allow_nil: true
 	has_secure_password
 	# uses a state-of-the-art hash function called bcrypt to create the password digest
 	# adds virtual attributes password and password_confirmation to verify passwords 
