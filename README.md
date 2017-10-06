@@ -103,3 +103,15 @@ $ rails generate controller ControllerName <optional action names>
 3. We can change features such as links on the layouts based on login status.
 
 4. Integration tests can verify correct routes, database updates, and proper changes to the layout.
+
+### Chapter 9: Advanced Login
+
+1. Rolling your own authorization system is very confusing.
+
+2. Rails can maintain state using persistent cookies.
+
+3. Remember Tokens and Remember Digests are the tools to maintain a persistent session.
+
+4. Login status is determined by the presence of a current user based on the session's user ID or the permanent session's unioque remember token.
+
+5. The application signs users out by deleting the session's user ID and removing the permanent cookie.
