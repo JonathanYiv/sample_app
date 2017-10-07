@@ -147,3 +147,7 @@ $ rails generate controller ControllerName <optional action names>
 5. Both mailer/integration tests are useful for verifying User mailer behavior.
 
 6. SendGrid is a heroku emailer.
+
+### Chapter 12: Password Reset
+
+1. Password Resets can be modeled as a resource and used similarly to sessions and account activations.
