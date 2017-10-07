@@ -133,3 +133,17 @@ $ rails generate controller ControllerName <optional action names>
 7. A boolean attribute in the database automatically creates a #attribute? boolean method on the Model's objects.
 
 8. Fixtures can produce a large amount of test data using embedded Ruby.
+
+### Chapter 11: Account Activation
+
+1. Account Activations can be modeled as a resource, even without an Active Record object.
+
+2. Rails can generate Action Mailer actions and views to send email.
+
+3. Instance variables defined in mailer actions are available in mailer views.
+
+4. Account activations used a generated token to create a unique URL for activating users and a hashed activation digest to securely identify valid activation requests.
+
+5. Both mailer/integration tests are useful for verifying User mailer behavior.
+
+6. SendGrid is a heroku emailer.
