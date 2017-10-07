@@ -9,6 +9,7 @@ Rails.application.routes.draw do
   post   '/login',    to: 'sessions#create'
   delete '/logout',   to: 'sessions#destroy'
   resources :users
+  resources :account_activations, only: [:edit]
 end
  
 # maps requests for the URL /static_pages/home to the home action in the StaticPages controller
