@@ -151,3 +151,13 @@ $ rails generate controller ControllerName <optional action names>
 ### Chapter 12: Password Reset
 
 1. Password Resets can be modeled as a resource and used similarly to sessions and account activations.
+
+### Chapter 13: User Microposts
+
+1. Rails supports multi-key indices.
+
+2. Scopes take anonymous functions as arguments using the stabby lambda syntax.
+
+3. Fixtures support associations.
+
+4. CarrierWave is a useful gem for uploading and resizing images.
