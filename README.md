@@ -161,3 +161,7 @@ $ rails generate controller ControllerName <optional action names>
 3. Fixtures support associations.
 
 4. CarrierWave is a useful gem for uploading and resizing images.
+
+### Chapter 14: Following Users
+
+N/A
